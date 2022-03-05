@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Control</title>
+</head>
+<body>
+    <h1>Control de pastelería</h1>
+    <hr>
+    <h2>Sabores restantes</h2>
+    <table>
+        <tr>
+            <th>Sabor</th>
+            <th>Cantidad</th>
+        </tr>
+        <tr>
+            <td>Angora</td>
+            <td><input type="number" id="number1" name="number1"><br><br></td>     
+        </tr>
+        <tr>
+            <td>Esfinge</td>
+            <td><input type="number" id="number2" name="number2"><br><br></td>
+        </tr>
+        <tr>
+            <td>Bengala</td>
+            <td><input type="number" id="number3" name="number3"><br><br></td>
+        </tr>
+        <tr>
+            <td>Persa</td>
+            <td><input type="number" id="number4" name="number4"><br><br></td>
+        </tr><tr>
+            <td>Pixie</td>
+            <td><input type="number" id="number5" name="number5"><br><br></td>
+        </tr><tr>
+            <td>Siamés</td>
+            <td><input type="number" id="number6" name="number6"><br><br></td>
+    </table>
+    <hr>
+    <h2>Inventario de adornos</h2>
+    <table>
+        <tr>
+            <th>Adorno</th>
+            <th>Cantidad disponible</th>
+        </tr>
+        <tr>
+            <td>Velas de cumpleaños</td>
+            <td><input type="number" id="number1" name="number1"><br><br></td>
+        </tr>
+        <tr>
+            <td>Gatitos de foundant</td>
+            <td><input type="number" id="number2" name="number2"><br><br></td>
+        </tr>
+        <tr>
+            <td>Bengalas de cumpleaños</td>
+            <td><input type="number" id="number3" name="number3"><br><br></td>
+        </tr>
+        <tr>
+            <td>Poner la cara de tu gatito</td>
+            <td><input type="number" id="number4" name="number4"><br><br></td>
+        </tr>
+    </table>
+    <hr>
+    <h2>Pedidos</h2>
+    <table>
+        <tr>
+            <th>Fecha de entrega</th>
+            <th>Nombre</th>
+            <th>Correo electrónico</th>
+            <th>Teléfono</th>
+            <th>Sabor</th>
+            <th>Tamaño</th>
+            <th>Adorno</th>
+            <th>Bebidas</th>
+        </tr>
+        <tr>
+            <td><input type="date" id="fecha de entrega" name="fecha de entrega"nvalue="" min="2022-01-01" max="2022-12-31"><br><br></td>
+            <td><input type="text" id="Input1" name="Input1" placeholder="Nombre del cliente" maxlength="50"><br><br></td>
+            <td><input type="email" id="correo1" name="correo1" placeholder="Correo elctronico" maxlength="30"><br><br></td>
+            <td><input type="tel" id="tel1" name="tel1" placeholder="Teléfono" maxlength="10"><br><br></td>
+            <td><ul>
+                <li><input type="checkbox" id="sabor1" name="sabor1" value="Tres leches">
+                <label for="sabor1">Tres leches</label><br></li>
+                <li><input type="checkbox" id="sabor2" name="sabor2" value="Fresa">
+                <label for="sabor2">Fresa</label><br></li>
+                <li><input type="checkbox" id="sabor3" name="sabor3" value="Vainilla">
+                <label for="sabor3">Vainilla</label><br></li>
+                <li><input type="checkbox" id="sabor4" name="sabor4" value="Coco">
+                <label for="sabor4">Coco</label><br></li>
+                <li><input type="checkbox" id="sabor5" name="sabor5" value="Pavo">
+                <label for="sabor5">Pate de pavo</label><br></li>
+                <li><input type="checkbox" id="sabor6" name="sabor6" value="Atún">
+                <label for="sabor6">Pate de atún blanco</label><br></li>
+            </ul></td>
+            <td><ul>
+                <input type="radio" id="Individual" name="tamaño" value="Individual">
+                <label for="Individual">Individual</label><br>
+                <input type="radio" id="Mediano" name="tamaño" value="Mediano">
+                <label for="Mediano">Mediano</label><br>
+                <input type="radio" id="Grande" name="tamaño" value="Grande">
+                <label for="Grande">Grande</label><br>
+                <input type="radio" id="Familiar" name="tamaño" value="Familiar">
+                <label for="Familair">Familiar</label><br><br>
+            </ul>
+            <td><ul>
+                <input type="checkbox" id="adorno1" name="adorno1" value="Velas de cumpleaños">
+                <label for="adorno1">Velas de cumpleaños</label><br>
+                <input type="checkbox" id="adorno2" name="adorno2" value="Gatitos de foundant">
+                <label for="adorno2">Gatitos de foundant</label><br>
+                <input type="checkbox" id="adorno3" name="adorno3" value="Bengalas de cumpleaños">
+                <label for="adorno3">Bengalas de cumpleaños</label><br>
+                <input type="checkbox" id="adorno4" name="adorno4" value="Poner la cara de tu gatito">
+                <label for="adorno4">Poner la cara de tu gatito</label><br>
+            </ul></td>
+            <td><ul>
+                <label for="numero1">Malteada</label><br>
+                <input type="number" id="numero1" name="numero1"><br>
+                <label for="numero2">Café Americano</label><br>
+                <input type="number" id="numero2" name="numero2"><br>
+                <label for="numero3">Leche para gatito</label><br>
+                <input type="number" id="numero3" name="numero3"><br>
+            </ul></td>
+        </tr>
+    </table>
+</body>
